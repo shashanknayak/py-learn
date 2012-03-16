@@ -1,0 +1,9 @@
+*.pyc
+*.swp
+
+*~
+.project
+.DS_Store
+
+.gitignore~
+
