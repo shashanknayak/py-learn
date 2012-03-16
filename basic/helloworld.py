@@ -6,11 +6,7 @@ def hello(name):
   print "Hello",name
 
 def main():
-  if not sys.argv[1]:
-    name = "???"
-  else:
-    name = sys.argv[1]
-  hello(name)
+  hello(sys.argv[1])
 
 #Boilerplate
 
